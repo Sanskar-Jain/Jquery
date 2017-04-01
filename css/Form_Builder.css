@@ -1,0 +1,31 @@
+.Field , .Preview {
+ float :left;
+ border : none;
+ width : 49.9%;
+ height : 100%;
+ margin : 0;
+ padding : 0;
+}
+.Field { 
+ border-right : 1px solid grey; 
+}
+#header1 , #header2 {
+ text-align : center;
+ font-family : "Arial", Times, serif;
+ border-radius : 5px;
+ border : 1px solid black;
+ font-size : 20px;
+ width : 100%;
+ display : inline-block;
+ background-color : #83caeb;
+}
+fieldset {
+    border-color: red;
+    border-style : solid;   
+}
+.cross {
+	width : 15px;
+	height : 15px;
+	vertical-align : middle;
+	margin : 10px;
+}
